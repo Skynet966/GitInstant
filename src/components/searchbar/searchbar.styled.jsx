@@ -4,7 +4,7 @@ export const SearchBarContainer = styled.div`
     display: flex;
     flex-flow: row;
     justify-content:center;
-    margin: 0 auto 15px;
+    margin: 0 auto 50px;
 `;
 
 export const TextInput = styled.input`

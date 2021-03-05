@@ -1,22 +1,6 @@
-import styled from "styled-components";
 import CameraLogo from "../../assets/image/camera.png";
 import YashiHeart from '../../assets/image/heart.png'
-
-export const NavbarContainer = styled.div`
-    display: flex;
-    flex-flow: row;
-    justify-content:center;
-    align-items:center;
-    margin-bottom: 30px;
-`;
-export const NavText = styled.h1`
-    font-weight: 500;
-    color: #565fa1;
-    text-shadow: 0 0 4px #565fa1;
-`;
-export const Image = styled.img`
-    width: 80px;
-`;
+import { NavbarContainer, NavText, Image } from "./navbar.styled";
 
 const Navbar = () => (
   <NavbarContainer>

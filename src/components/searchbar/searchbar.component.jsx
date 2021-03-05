@@ -1,12 +1,10 @@
 import { SearchBarContainer, TextInput } from "./searchbar.styled";
 
-const SearchBar = ({ handleSearch, handleChange }) => (
+const SearchBar = ({handleSearch}) => (
   <SearchBarContainer>
     <TextInput
-      onChange={handleChange}
-      onSearch={handleSearch}
+      onKeyDown={handleSearch}
       type="search"
-      name="search"
       placeholder="Type git username to search..."
     />
   </SearchBarContainer>
